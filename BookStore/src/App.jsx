@@ -1,16 +1,11 @@
+import { Button } from "flowbite-react";
 
 import "./App.css";
 
 function App() {
-
   return (
     <>
-     <div class="flex flex-col ...">
-  <div>01</div>
-  <div>02</div>
-  <div>03</div>
-</div>
-
+      <Button>Click me</Button>
     </>
   );
 }
